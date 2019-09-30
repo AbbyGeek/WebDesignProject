@@ -1,0 +1,104 @@
+body {
+    font-family: myriad-pro,Helvetica,Helvetica Neue,Arial,sans-serif;
+    padding: 10px 100px;
+}
+h1,h2,h3,h4,h5{
+    font-weight: 700
+}
+h3{
+    font-size: 1.5em;
+}
+h5{
+    font-size: 1.5em;
+    font-weight: 100;
+}
+input[type=text], select{
+    width: 100%;
+    padding: 12px, 20px;
+    margin: 8px, 0;
+    display: inline-block;
+}
+.u-blockquote{
+    background-color: #DADADA;
+}
+.u-blockquote-Text{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.u-blockquote-Footer{
+    text-align: right;
+    font-weight: bold;
+    padding-right: 50px;
+}
+.u-bannerImage{
+    background-color: grey;
+    width: 100%;
+}
+.u-bannerImage-Text{
+    color:white;
+    font-size: 1.5em;
+    position: absolute;
+    top:15%;
+    left: 55%;  
+}
+
+.u-cta{
+    background-color: lightseagreen;
+    position: relative;
+}
+.u-pageSummary{
+    background-color: pink;
+
+}
+.u-form{
+    background-color: aqua;
+    float: right;
+}
+.u-column{
+    flex:50%;
+    padding: 10px;
+}
+.u-row{
+    display:flex;
+}
+.u-form-label{
+    font-weight: 700;
+    color: #0c4569;
+    line-height: 1.5;
+}
+.u-form-Input{
+    border: 2px solid #aaaaaa;
+    border-radius: 5px;
+    max-width: 100%;
+}
+.u-form-Checkbox{
+    float: left;
+}
+.u-resources{
+    background-color: lime;
+    width: 100%;
+    
+}
+.u-resources-Tile{
+    max-width: 33%;
+}
+.u-resources-Image{
+    width: 100%;
+}
+
+.u-customMarketing{
+    background-color: lightgray;
+}
+.u-customMarketing-Img{
+    max-width: 100%;
+}
+.u-button{
+    background-color: #6c9f2e;
+    border-width: 0;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 1em;
+}
