@@ -1,6 +1,5 @@
 body {
     font-family: myriad-pro,Helvetica,Helvetica Neue,Arial,sans-serif;
-    padding: 10px 100px;
 }
 h1,h2,h3,h4,h5{
     font-weight: 700
@@ -18,52 +17,26 @@ input[type=text], select{
     margin: 8px, 0;
     display: inline-block;
 }
-.u-blockquote{
-    background-color: #DADADA;
-}
-.u-blockquote-Text{
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 100px;
-    padding-right: 100px;
-}
-.u-blockquote-Footer{
-    text-align: right;
-    font-weight: bold;
-    padding-right: 50px;
-}
-.u-bannerImage{
-    background-color: grey;
-    width: 100%;
-}
-.u-bannerImage-Text{
+
+.c-bannerImage-Text{
     color:white;
-    font-size: 1.5em;
+    font-weight: bold;
+    font-size: 1rem;
     position: absolute;
     top:15%;
-    left: 55%;  
+    overflow-wrap: normal;
+    text-align: center;
+    background-image: radial-gradient(rgb(0, 0, 0), rgba(225, 225, 225, 0));
 }
 
-.u-cta{
-    background-color: lightseagreen;
-    position: relative;
-}
-.u-pageSummary{
-    background-color: pink;
+// .u-cta{
+//     background-color: lightseagreen;
+//     position: relative;
+// }
+// .u-pageSummary{
+//     background-color: pink;
+// }
 
-}
-.u-form{
-    background-color: aqua;
-    float: right;
-}
-.u-column{
-    flex:50%;
-    padding: 10px;
-}
-.u-row{
-    display:flex;
-}
 .u-form-label{
     font-weight: 700;
     color: #0c4569;
@@ -77,16 +50,25 @@ input[type=text], select{
 .u-form-Checkbox{
     float: left;
 }
-.u-resources{
-    background-color: lime;
-    width: 100%;
-    
-}
+
 .u-resources-Tile{
-    max-width: 33%;
+    box-shadow: 2px 4px 8px 2px rgba(0,0,0,0.2);
 }
 .u-resources-Image{
     width: 100%;
+}
+.u-Background--grey{
+    background-color: #DADADA;
+}
+.u-blockquote-Text{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.u-blockquote-Footer{
+    text-align: right;
+    font-weight: bold;
 }
 
 .u-customMarketing{
@@ -100,5 +82,31 @@ input[type=text], select{
     border-width: 0;
     border-radius: 5px;
     color: #ffffff;
-    padding: 1em;
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    margin: 1rem;
+}
+@media(min-width: 500px){
+    .u-column{
+        flex:50%;
+        padding: 10px;
+    }
+    .u-row{
+        display:flex;
+    }
+    .u-resources-Tile{
+        max-width: 33%;
+    }
+}
+@media(min-width: 750px){
+    .c-bannerImage-Text{
+        color:white;
+        font-size: 1.5rem;
+        position: absolute;
+        top:15%;
+        left: 50%; 
+        overflow-wrap: normal;
+        background-color: rgba(0,0,0,0);
+    }
 }
