@@ -21,38 +21,31 @@ input[type=text], select{
 .c-bannerImage-Text{
     color:white;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.5rem;
     position: absolute;
-    top:15%;
-    overflow-wrap: normal;
     text-align: center;
-    background-image: radial-gradient(rgb(0, 0, 0), rgba(225, 225, 225, 0));
 }
 
 // .u-cta{
 //     background-color: lightseagreen;
 //     position: relative;
 // }
-// .u-pageSummary{
-//     background-color: pink;
-// }
 
-.u-form-label{
+.c-form-label{
     font-weight: 700;
     color: #0c4569;
     line-height: 1.5;
 }
-.u-form-Input{
+.c-form-Input{
     border: 2px solid #aaaaaa;
     border-radius: 5px;
     max-width: 100%;
 }
-.u-form-Checkbox{
-    float: left;
-}
+
 
 .u-resources-Tile{
     box-shadow: 2px 4px 8px 2px rgba(0,0,0,0.2);
+    margin: 0 .5rem;
 }
 .u-resources-Image{
     width: 100%;
@@ -73,11 +66,12 @@ input[type=text], select{
 
 .u-customMarketing{
     background-color: lightgray;
+    margin-top: 2rem;
 }
 .u-customMarketing-Img{
     max-width: 100%;
 }
-.u-button{
+.c-button{
     background-color: #6c9f2e;
     border-width: 0;
     border-radius: 5px;
@@ -86,6 +80,12 @@ input[type=text], select{
     font-weight: bold;
     padding: 1rem 2rem;
     margin: 1rem;
+}
+
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
 }
 @media(min-width: 500px){
     .u-column{
@@ -100,13 +100,14 @@ input[type=text], select{
     }
 }
 @media(min-width: 750px){
+    .u-MarginLR-20{
+        margin: 0 20%;
+    }
     .c-bannerImage-Text{
-        color:white;
-        font-size: 1.5rem;
-        position: absolute;
-        top:15%;
-        left: 50%; 
-        overflow-wrap: normal;
-        background-color: rgba(0,0,0,0);
+        color: white;
+        text-align: right;
+        top:30%;
+        left:60%;
+        transform:translate(-15%, -40%);
     }
 }
