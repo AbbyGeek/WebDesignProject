@@ -1,16 +1,7 @@
 body {
     font-family: myriad-pro,Helvetica,Helvetica Neue,Arial,sans-serif;
 }
-h1,h2,h3,h4,h5{
-    font-weight: 700
-}
-h3{
-    font-size: 1.5em;
-}
-h5{
-    font-size: 1.5em;
-    font-weight: 100;
-}
+
 input[type=text], select{
     width: 100%;
     padding: 12px, 20px;
@@ -18,7 +9,27 @@ input[type=text], select{
     display: inline-block;
 }
 
-.c-bannerImage-Text{
+.u-FontWeight100{
+    font-weight: 100;
+}
+.u-FontSize--1dot5em{
+    font-size: 1.5em;
+}
+.u-Width100{
+    width: 100%;
+}
+.u-Background--grey{
+    background-color: #DADADA;
+}
+.u-MarginTop-2rem{
+    margin-top: 2rem;
+}
+.u-Relative{
+    position: relative;
+}
+
+
+.c-BannerImage__text{
     color:white;
     font-weight: bold;
     font-size: 1rem;
@@ -27,48 +38,33 @@ input[type=text], select{
     top:5%;
     margin: 0 1rem;
 }
-
-.c-form-label{
+.c-Form-label{
     font-weight: 700;
     color: #0c4569;
     line-height: 1.5;
 }
-.c-form-Input{
+.c-Form-Input{
     border: 2px solid #aaaaaa;
     border-radius: 5px;
     max-width: 100%;
 }
-
-
-.u-resources-Tile{
+.c-Card{
     box-shadow: 2px 4px 8px 2px rgba(0,0,0,0.2);
     margin: 0 .5rem;
 }
-.u-resources-Image{
-    width: 100%;
-}
-.u-Background--grey{
-    background-color: #DADADA;
-}
-.u-blockquote-Text{
+.c-Blockquote__Text{
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
-
 }
-.u-blockquote-Footer{
+.c-Blockquote__footer{
     text-align: right;
     font-weight: bold;
 }
 
-.u-customMarketing{
-    background-color: lightgray;
-    margin-top: 2rem;
-}
-.u-CustomMarketing-img{
-    max-width: 100%;
-}
-.c-button{
+
+
+.c-Button{
     background-color: #6c9f2e;
     border-width: 0;
     border-radius: 5px;
@@ -79,11 +75,9 @@ input[type=text], select{
     margin: 1rem;
 }
 
-.container{
-    position: relative;
-    text-align: center;
-    color: white;
-}
+
+
+
 @media(min-width: 500px){
     .u-Column{
         flex:50%;
@@ -92,14 +86,11 @@ input[type=text], select{
     .u-Row{
         display:flex;
     }
-    .u-resources-Tile{
-        max-width: 33%;
-    }
 
     .u-MarginLR-20{
         margin: 0 20%;
     }
-    .c-bannerImage-Text{
+    .c-BannerImage__text{
         color: white;
         text-align: right;
         top:38%;
@@ -107,7 +98,7 @@ input[type=text], select{
         transform:translate(-5%, -40%);
     }
     @media(max-width:1000px){
-        .u-CustomMarketing-img{
+        .u-NoDisplay{
             display: none;
         }
     }
