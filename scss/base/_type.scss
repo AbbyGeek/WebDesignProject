@@ -21,15 +21,12 @@ input[type=text], select{
 .c-bannerImage-Text{
     color:white;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1rem;
     position: absolute;
     text-align: center;
+    top:5%;
+    margin: 0 1rem;
 }
-
-// .u-cta{
-//     background-color: lightseagreen;
-//     position: relative;
-// }
 
 .c-form-label{
     font-weight: 700;
@@ -68,7 +65,7 @@ input[type=text], select{
     background-color: lightgray;
     margin-top: 2rem;
 }
-.u-customMarketing-Img{
+.u-CustomMarketing-img{
     max-width: 100%;
 }
 .c-button{
@@ -88,26 +85,30 @@ input[type=text], select{
     color: white;
 }
 @media(min-width: 500px){
-    .u-column{
+    .u-Column{
         flex:50%;
-        padding: 10px;
+        padding: 1rem;
     }
-    .u-row{
+    .u-Row{
         display:flex;
     }
     .u-resources-Tile{
         max-width: 33%;
     }
-}
-@media(min-width: 750px){
+
     .u-MarginLR-20{
         margin: 0 20%;
     }
     .c-bannerImage-Text{
         color: white;
         text-align: right;
-        top:30%;
-        left:60%;
-        transform:translate(-15%, -40%);
+        top:38%;
+        left: 30%;
+        transform:translate(-5%, -40%);
+    }
+    @media(max-width:1000px){
+        .u-CustomMarketing-img{
+            display: none;
+        }
     }
 }
