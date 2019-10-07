@@ -8,6 +8,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="./assets/styles/main.css">
+    <script type="text/javascript" src="./js/main.js"></script>
 </head>
 
 <body class="u-MarginLR-20">
@@ -45,7 +46,7 @@
                 <p>Get connected and hear how an Agent Relationship Manager can help you and your clients throughout the
                     entire home loan process, or simply sign up for our e-newsletters. (Are we really still calling them
                     "e-newsletters"?)</p>
-                <form>
+                <form name="getConnected" onsubmit="return validateForm()">
                     <label class="c-FormLabel" for="fname">First Name</label>
                     <input class="c-Form-Input" type="text" id="fname" name="firstName">
 
