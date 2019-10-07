@@ -1,0 +1,19 @@
+input[type=text], select{
+    width: 100%;
+    padding: 12px, 20px;
+    margin: 8px, 0;
+    display: inline-block;
+}
+
+
+.c-FormLabel {
+    font-weight: 700;
+    color: #0c4569;
+    line-height: 1.5;
+}
+
+.c-Form-Input{
+    border: 2px solid #aaaaaa;
+    border-radius: 5px;
+    max-width: 100%;
+}

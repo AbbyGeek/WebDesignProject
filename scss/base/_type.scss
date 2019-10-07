@@ -2,67 +2,22 @@ body {
     font-family: myriad-pro,Helvetica,Helvetica Neue,Arial,sans-serif;
 }
 
-input[type=text], select{
-    width: 100%;
-    padding: 12px, 20px;
-    margin: 8px, 0;
-    display: inline-block;
-}
 
-.u-FontWeight100{
-    font-weight: 100;
-}
-.u-FontSize--1dot5em{
-    font-size: 1.5em;
-}
-.u-Width100{
-    width: 100%;
-}
-.u-Background--grey{
-    background-color: #DADADA;
-}
-.u-MarginTop-2rem{
-    margin-top: 2rem;
-}
-.u-Relative{
-    position: relative;
-}
-
-
-.c-BannerImage__text{
-    color:white;
-    font-weight: bold;
-    font-size: 1rem;
-    position: absolute;
-    text-align: center;
-    top:5%;
-    margin: 0 1rem;
-}
-.c-Form-label{
-    font-weight: 700;
-    color: #0c4569;
-    line-height: 1.5;
-}
-.c-Form-Input{
-    border: 2px solid #aaaaaa;
-    border-radius: 5px;
-    max-width: 100%;
-}
 .c-Card{
     box-shadow: 2px 4px 8px 2px rgba(0,0,0,0.2);
     margin: 0 .5rem;
 }
+
 .c-Blockquote__Text{
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
 .c-Blockquote__footer{
     text-align: right;
     font-weight: bold;
 }
-
-
 
 .c-Button{
     background-color: #6c9f2e;
@@ -75,31 +30,21 @@ input[type=text], select{
     margin: 1rem;
 }
 
-
-
-
-@media(min-width: 500px){
-    .u-Column{
-        flex:50%;
-        padding: 1rem;
-    }
-    .u-Row{
+.u-Row{
+    @media(min-width: 500px){
         display:flex;
     }
+}
 
+.u-Column{
+    @media(min-width: 500px){
+        flex: 50%;
+        padding: 1rem;
+    }
+}
+
+@media(min-width: 500px){
     .u-MarginLR-20{
         margin: 0 20%;
-    }
-    .c-BannerImage__text{
-        color: white;
-        text-align: right;
-        top:38%;
-        left: 30%;
-        transform:translate(-5%, -40%);
-    }
-    @media(max-width:1000px){
-        .u-NoDisplay{
-            display: none;
-        }
     }
 }
