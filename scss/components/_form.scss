@@ -1,19 +1,15 @@
-input[type=text], select{
-    width: 100%;
-    padding: 12px, 20px;
-    margin: 8px, 0;
-    display: inline-block;
+.c-Form {
+    width:100%;
+    display:inline-block; 
 }
 
-
-.c-FormLabel {
+.c-Form__label {
     font-weight: 700;
-    color: #0c4569;
+    color: $QLBlue;
     line-height: 1.5;
 }
 
-.c-Form-Input{
-    border: 2px solid #aaaaaa;
+.c-Form__input {
+    border: 2px solid gray;
     border-radius: 5px;
-    max-width: 100%;
 }

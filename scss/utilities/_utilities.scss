@@ -1,35 +1,35 @@
-.u-FontWeight100{
-    font-weight: 100;
+.u-FontSize--1dot5rem {
+    font-size: 1.5rem;
 }
 
-.u-FontSize--1dot5em{
-    font-size: 1.5em;
+.u-Background--grey {
+    background-color: $lGrey;
 }
 
-.u-Width100{
-    width: 100%;
-}
-
-.u-Background--grey{
-    background-color: #DADADA;
-}
-
-.u-MarginTop-2rem{
+.u-MarginTop-2rem {
     margin-top: 2rem;
 }
 
-.u-Relative{
+.u-Relative {
     position: relative;
 }
 
-.u-Padding--1rem{
+.u-Padding--1rem {
     padding: 1rem;
 }
 
-.u-Padding--2rem{
+.u-Padding--2rem {
     padding: 2rem;
 }
 
-.u-TextAlign--center{
+.u-TextAlign--center {
     text-align: center;
+}
+
+.u-TextAlign--right {
+    text-align: right;
+}
+
+.u-FontWeight--bold {
+    font-weight:bold;
 }

@@ -1,20 +1,18 @@
 body {
     font-family: myriad-pro,Helvetica,Helvetica Neue,Arial,sans-serif;
-    @media(min-width: 500px){
-        margin: 0 20%;
-    }
-
+    margin: 0 auto;
+    max-width: 64rem;
 }
 
-.u-Row{
+.o-Flex{
     @media(min-width: 500px){
         display:flex;
     }
 }
 
-.u-Column{
+.o-Flex__item{
     @media(min-width: 500px){
-        flex: 50%;
+        flex: 1;
         padding: 1rem;
     }
 }
