@@ -4,15 +4,3 @@ body {
     max-width: 64rem;
 }
 
-.o-Flex{
-    @media(min-width: 500px){
-        display:flex;
-    }
-}
-
-.o-Flex__item{
-    @media(min-width: 500px){
-        flex: 1;
-        padding: 1rem;
-    }
-}
